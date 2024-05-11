@@ -1,0 +1,115 @@
+/*--for mobile*/
+
+ 
+ .navbar{
+     background-color: black;
+     padding: 20px 10px;
+   text-align: center;
+ }
+ .navbar::after{
+     content:'';
+     display: table;
+     clear: both;
+ }
+ .navbar h1{
+     margin: 0;
+     padding-top: 10px;
+ }
+ .navbar-menu{
+     display: flex;
+     flex-direction: column;   
+ }
+ .navbar-menu a{
+     background-color: #414141;
+     margin: 10px;
+     padding: 10px 20px;
+     border-radius: 20px;
+     
+ }
+ .navbar-menu a:hover{
+     background-color:rgba(150, 23, 23, 0.027);
+ }
+ /*---navbar colse*/
+ /*---profile start*/
+
+ .profile{
+    padding: 130px 10px;
+    position: relative;
+   
+    text-align: center;
+
+ }
+ .profile .top-weather-icon{
+    position: absolute;
+    right: 60px;
+    top:20px;
+    transition:transfrom 2s;
+ }
+ .profile .top-weather-icon:hover{
+   transform: rotate(180deg);
+
+ }
+ .profile-desc h1{
+    font-size: 3rem;
+        font-family: 'Satisfy',cursive;
+        
+ }
+ .profile-desc p{
+    color: gray;
+    text-align: center;
+    width:90%;
+ }
+ .profile .bottom-weather-icon{
+    position: absolute;
+    left: 20px;
+    bottom:20px;
+    transition:transfrom 2s;
+ }
+ .profile .bottom-weather-icon:hover{
+    transform: rotate(180deg);
+ }
+ /*---profile end*/
+ /*about me start*/
+ 
+ h2{
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bolder;
+  }
+  .dotted-hr{
+    text-align: center;
+    border:dotted 6px rgb(243, 5, 5) ;
+    border-bottom:none ;
+    margin:0 auto 20px;
+    width:120px;
+ }
+ .aboutme-image img{
+    border: 5px solid white;
+    border-radius: 50%;
+    height:230px;
+    width:200px;
+ }
+ .aboutme{
+    text-align: center;
+    
+ }
+ .aboutme p {
+    text-align: center;
+ }
+
+ .cv-button{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 20px;
+    margin: 10px;
+ }
+ /*about me end*/
+ /*education start*/
+
+ .card-icon img{
+    padding:15px;
+    border: 5px solid white;
+    border-radius: 50%;
+    margin: 0 auto;
+ }
